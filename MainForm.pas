@@ -485,7 +485,7 @@ begin
 end;
 
 //Следующий LVL
-procedure TgameForm.nextLVL;
+procedure TgameForm.nextLVL();
 begin
   if selectLocation + 1 < Length(Locations) then begin
     ShowMessage('Сейчас начнётся новый уровень!');
